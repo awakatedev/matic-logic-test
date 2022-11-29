@@ -1,0 +1,21 @@
+@use '../lib/variables.scss' as vars;
+
+.header {
+    height: 80px;
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+        width: 150px;
+    }
+    &__button {
+        font-weight: bold;
+        color: vars.$Blue-base;
+        border: 1px solid vars.$Blue-base;
+        border-radius: 5px;
+        padding: 1em 2em;
+        cursor: pointer;
+    }
+}

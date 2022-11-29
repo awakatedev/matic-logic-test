@@ -1,0 +1,51 @@
+@use '../lib/variables.scss' as vars;
+
+.section {
+    padding: 2em 0;
+    &__title {
+        color: vars.$Title-font;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+    &__paragraph {
+        color: vars.$Primary-font;
+        margin: 1em 0;
+    }
+    &__label {
+        color: vars.$Primary-font;
+        padding-bottom: 0.5em;
+    }
+    &__input{
+        border: 1px solid vars.$Grey;
+        border-radius: 5px;
+        padding: 1em;
+        width: 100%;
+        color: vars.$Primary-font;
+    }
+    &__button {
+        font-weight: bold;
+        background-color: vars.$Blue-base;
+        color: vars.$White;
+        border: 1px solid vars.$Blue-base;
+        border-radius: 5px;
+        padding: 1em 2em;
+        cursor: pointer;
+        float: right;
+        &:hover {
+            background-color: vars.$Blue-cover;
+            border: 1px solid vars.$Blue-cover;
+        }
+    }
+    &__result {
+        color: vars.$Primary-font;
+        margin: 1em 0;
+    }
+    &__list-result{
+        background-color: vars.$Grey-light;
+        padding: 1em;
+        margin: 1em 0;
+        &__item {
+            color: vars.$Primary-font;
+        }
+    }
+}

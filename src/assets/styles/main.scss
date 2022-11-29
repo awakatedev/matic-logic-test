@@ -1,0 +1,26 @@
+@use './index.scss' as *;
+
+
+.main {
+    padding: 0 10% 10% 10%;
+}
+
+.hero{
+    padding: 2em 0 1em 0;
+    text-align: center;
+    &__title {
+        color: $Title-font;
+        font-size: 3em;
+        font-weight: bold;
+        line-height: 45px;
+    }
+    &__subtitle {
+        color: $Blue-base;
+        font-size: 2.8em;
+        font-weight: bold;
+        padding: 0.5em 0;
+    }
+    &__description{
+        color: $Primary-font;
+    }
+}
