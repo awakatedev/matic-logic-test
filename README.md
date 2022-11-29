@@ -42,26 +42,23 @@ For the composition and validation of the unit tests I decided to create the com
     ├── RepetitionsWords.test.js
     ├── index.jsx
 ```
-    
-To run the project you need to install the dependency packages with 
 
-```
-npm install
-```
+### Available scripts&#x20;
 
-Once the dependencies are installed you can run the project with 
+> The commands that will be explained below must be run at the root of the project.
 
-```
-npm run start.
-```
+`npm i` First command to run when cloning or intending to run the project to install the dependencies required by the project. &#x20;
+
+`npm run lint` Run Eslint to correct syntax errors in the code.
 
 By default will come the values indicated in the test document to verify its functionality, these values can be edited to validate other values and confirm the use of the function.
 
-For unit tests you can use the command.
+`npm run test` For unit tests you can u
 
-```
-npm run test
-```
+&#x20;`npm run build` Builds the app for production in the `build`.folder.
+&#x20;Properly bundles React in production mode and optimises the build for best performance.
+
+`npm run start` Runs the prodiction server running the code generated with the previously executed build and remains running on the [http://localhost:3001](http://localhost:3000)
 
 The design of the model was based on the styles and colors of the brand. Here is the link to the [Figma](https://www.figma.com/file/M9wn1ZWGmM6b9J9xQ33bmP/Matic-logic-test-UI?node-id=0%3A1&t=P9xJCmqRipREOKJT-1) for you to appreciate.
 
